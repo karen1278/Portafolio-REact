@@ -21,7 +21,7 @@ nav{
   align-items: flex-start;
   min-width: 100%;
   background-color: #090C24;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 header{
   align-items: center;
@@ -29,13 +29,17 @@ header{
 }
 .photo{
   width: 22%;
-}
+} 
 .containerhabilidades{
   display: flex;
   flex-wrap: wrap;
 }
 .habilidades{
   height: 5rem;
+}
+.habilidades:hover {
+  transform: scale(1.2);
+  filter: brightness(100%);
 }
 .proyecto{
   display: flex;
@@ -47,15 +51,38 @@ header{
   padding: 2%;
   margin: 2%;
 }
-.contact{
-padding: 3rem;
+.cartas:hover{
+  transform: scale(1.05);
+  filter: brightness(110%);
 }
-.contactlogo{
+.contact {
+  padding: 3rem;
+}
+
+.contactlogo {
   height: 5rem;
+  transition: filter 0.3s ease-in-out;
 }
+
+.contactlogo:hover {
+  transform: scale(1.05);
+  filter: brightness(180%);
+}
+
 .flecha{
   right: 5px;
  
+}
+
+.boxexp{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.exp{
+  width: 30%;
 }
 @media (max-width: 522px) {
   h5{
@@ -73,12 +100,25 @@ padding: 3rem;
   .contactlogo{
     height: 2.8rem;
   }
+
+  .exp{
+    width: 90%;
+  }
+  .habilidades{
+    margin: 9px 0px;
+    height: 5rem;
+  }
 }
+
 @media (max-width: 417px) {
   .habilidades{
     height: 3rem;
   }
   .contactlogo{
     height: 2.8rem;
+  }
+  .habilidades{
+    margin: 9px 10px;
+    height: 5rem;
   }
 }
