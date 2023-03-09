@@ -1,0 +1,84 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0D1031;
+  color: white;
+  height: 100%;
+}
+.card {
+  padding: 2em;
+}
+.read-the-docs {
+  color: #888;
+}
+section{
+  padding: 3rem;
+  background-color: #0D1031;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-width: 100%;
+  background-color: #090C24;
+  padding: 1.5rem;
+}
+header{
+  align-items: center;
+  height: 500px;
+}
+.photo{
+  width: 22%;
+}
+.containerhabilidades{
+  display: flex;
+  flex-wrap: wrap;
+}
+.habilidades{
+  height: 5rem;
+}
+.proyecto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+}
+.cartas{
+  padding: 2%;
+  margin: 2%;
+}
+.contact{
+padding: 3rem;
+}
+.contactlogo{
+  height: 5rem;
+}
+.flecha{
+  right: 5px;
+ 
+}
+@media (max-width: 522px) {
+  h5{
+    font-size: small !important; 
+  }
+  header{
+    height: 15rem !important;
+  }
+  h1{
+    font-size: 2rem !important;
+  }
+  h4{
+    font-size: large !important;
+  }
+  .contactlogo{
+    height: 2.8rem;
+  }
+}
+@media (max-width: 417px) {
+  .habilidades{
+    height: 3rem;
+  }
+  .contactlogo{
+    height: 2.8rem;
+  }
+}
