@@ -4,7 +4,7 @@ function Data() {
 const [photo, setPhoto] = useState("../img/photo.png");
 
 const handleMouseOver = () => {
-setPhoto("../img/calcifer.png");
+setPhoto("../img/HalconMilenario.png");
 };
 
 const handleMouseLeave = () => {

@@ -1,21 +1,29 @@
 #root {
   margin: 0 auto;
   text-align: center;
-  background-color: #0D1031;
+  background-size: contain;
+  background-image: url("/public/img/fondo.png"); 
+  background-color: #090C24;
   color: white;
   height: 100%;
+  transition: background-color 0.5s ease;
 }
+
 .card {
   padding: 2em;
 }
+
 .read-the-docs {
   color: #888;
 }
-section{
+
+section {
   padding: 3rem;
-  background-color: #0D1031;
+
 }
-nav{
+
+nav {
+  
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -23,38 +31,49 @@ nav{
   background-color: #090C24;
   padding: 2rem;
 }
-header{
+
+header {
   align-items: center;
   height: 500px;
 }
-.photo{
+
+.photo {
   width: 22%;
-} 
-.containerhabilidades{
+  border-radius: 100px;
+}
+
+
+.containerhabilidades {
   display: flex;
   flex-wrap: wrap;
 }
-.habilidades{
+
+.habilidades {
   height: 5rem;
 }
+
 .habilidades:hover {
   transform: scale(1.2);
   filter: brightness(100%);
 }
-.proyecto{
+
+.proyecto {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 3rem;
 }
-.cartas{
+
+.cartas {
   padding: 2%;
   margin: 2%;
 }
-.cartas:hover{
+
+.cartas:hover {
   transform: scale(1.05);
   filter: brightness(110%);
 }
+
 .contact {
   padding: 3rem;
 }
@@ -69,55 +88,64 @@ header{
   filter: brightness(180%);
 }
 
-.flecha{
+.flecha {
   right: 5px;
- 
+
 }
 
-.boxexp{
+.boxexp {
   margin-top: 70px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.exp{
+
+.exp {
   width: 30%;
 }
+
 @media (max-width: 522px) {
-  h5{
-    font-size: small !important; 
+  h5 {
+    font-size: small !important;
   }
-  header{
+
+  header {
     height: 15rem !important;
   }
-  h1{
+
+  h1 {
     font-size: 2rem !important;
   }
-  h4{
+
+  h4 {
     font-size: large !important;
   }
-  .contactlogo{
+
+  .contactlogo {
     height: 2.8rem;
   }
 
-  .exp{
+  .exp {
     width: 90%;
   }
-  .habilidades{
+
+  .habilidades {
     margin: 9px 0px;
     height: 5rem;
   }
 }
 
 @media (max-width: 417px) {
-  .habilidades{
+  .habilidades {
     height: 3rem;
   }
-  .contactlogo{
+
+  .contactlogo {
     height: 2.8rem;
   }
-  .habilidades{
+
+  .habilidades {
     margin: 9px 10px;
     height: 5rem;
   }
